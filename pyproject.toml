@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vkr-stage1"
+version = "0.3.0"
+description = "Stage 1 skeleton: NL -> LLM API -> SQL/1C tools via agent"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.40.0",
+  "python-dotenv>=1.0.1",
+  "fastapi>=0.111.0",
+  "uvicorn>=0.30.0",
+  "httpx>=0.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "pyarrow>=17.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"

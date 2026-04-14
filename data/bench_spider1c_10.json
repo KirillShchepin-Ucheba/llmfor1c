@@ -1,0 +1,113 @@
+{
+  "total": 10,
+  "success_count": 10,
+  "error_count": 0,
+  "success_rate": 1.0,
+  "exact_match_count": 0,
+  "exact_match_rate": 0.0,
+  "latency_ms": {
+    "avg": 3799.930019993917,
+    "p50": 3942.5042499933625,
+    "max": 4363.247700006468
+  },
+  "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "api_base": "https://api.vsellm.ru/v1",
+    "onec_mock": false,
+    "exec_query": false,
+    "limit": 10,
+    "offset": 0
+  },
+  "samples": [
+    {
+      "idx": 1,
+      "question": "Перечислите имена, фамилии, место рождения и возраст глав департаментов в порядке возраста.",
+      "exact_match": false,
+      "gen_latency_ms": 4103.935099992668,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4103.9561000070535,
+      "error": null
+    },
+    {
+      "idx": 2,
+      "question": "Укажите год создания, название и бюджет каждого отдела.",
+      "exact_match": false,
+      "gen_latency_ms": 3874.574300018139,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3874.5846999809146,
+      "error": null
+    },
+    {
+      "idx": 3,
+      "question": "Каковы максимальный и минимальный бюджет факультетов?",
+      "exact_match": false,
+      "gen_latency_ms": 3826.535700005479,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3826.54619999812,
+      "error": null
+    },
+    {
+      "idx": 4,
+      "question": "Каково среднее число сотрудников отделов, чей ранг находится в диапазоне от 10 до 15?",
+      "exact_match": false,
+      "gen_latency_ms": 3143.7995999876875,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3143.8162999984343,
+      "error": null
+    },
+    {
+      "idx": 5,
+      "question": "Как называются главы, родившиеся за пределами штата Калифорния?",
+      "exact_match": false,
+      "gen_latency_ms": 3069.824299978791,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3069.8336999921594,
+      "error": null
+    },
+    {
+      "idx": 6,
+      "question": "Каковы годы создания отделов, которыми руководит секретарь, родившийся в штате Алабама?",
+      "exact_match": false,
+      "gen_latency_ms": 4363.232100004097,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4363.247700006468,
+      "error": null
+    },
+    {
+      "idx": 7,
+      "question": "Как называются штаты, в которых родилось не менее 3 голов?",
+      "exact_match": false,
+      "gen_latency_ms": 3373.456300003454,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3373.4714999736752,
+      "error": null
+    },
+    {
+      "idx": 8,
+      "question": "В каком году было создано большинство факультетов?",
+      "exact_match": false,
+      "gen_latency_ms": 4111.607700004242,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4111.624499986647,
+      "error": null
+    },
+    {
+      "idx": 9,
+      "question": "Покажите фамилии и количество сотрудников в отделах, которыми руководят руководители, чье значение \"Временно исполняющий обязанности\" равно \"Да\"?",
+      "exact_match": false,
+      "gen_latency_ms": 4010.404699976789,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4010.4238000058103,
+      "error": null
+    },
+    {
+      "idx": 10,
+      "question": "Сколько существует актерских статусов?",
+      "exact_match": false,
+      "gen_latency_ms": 4121.785900002578,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4121.795699989889,
+      "error": null
+    }
+  ]
+}

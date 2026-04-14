@@ -1,0 +1,47 @@
+[
+  {
+    "file": "bench_spider1c_50_claude_opus_4_1.json",
+    "model": "anthropic/claude-opus-4.1",
+    "total": 50,
+    "success_rate": 1.0,
+    "exact_match_rate": 0.0,
+    "cos_avg": 0.7699544316726975,
+    "cos_p50": 0.7753241430705113,
+    "cos_min": 0.419077764549494,
+    "cos_max": 0.9260226534300545,
+    "lat_avg": 7764.4465979983215,
+    "lat_p50": 7312.434299994493,
+    "lat_max": 13384.680600007414,
+    "label": "Claude Opus 4.1"
+  },
+  {
+    "file": "bench_spider1c_50_glm46v_flash.json",
+    "model": "z-ai/glm-4.6v-flash",
+    "total": 50,
+    "success_rate": 1.0,
+    "exact_match_rate": 0.0,
+    "cos_avg": 0.7334884286786484,
+    "cos_p50": 0.7360971593644093,
+    "cos_min": 0.46565292905488015,
+    "cos_max": 0.9082659911388936,
+    "lat_avg": 26372.765649999492,
+    "lat_p50": 23432.752099994104,
+    "lat_max": 76013.86329998786,
+    "label": "GLM 4.6v Flash"
+  },
+  {
+    "file": "bench_spider1c_50_gpt_5-3_codex.json",
+    "model": "openai/gpt-5.3-codex",
+    "total": 50,
+    "success_rate": 1.0,
+    "exact_match_rate": 0.0,
+    "cos_avg": 0.7594640336028322,
+    "cos_p50": 0.7792876447991735,
+    "cos_min": 0.539348619109198,
+    "cos_max": 0.9333916942032374,
+    "lat_avg": 6807.261538000021,
+    "lat_p50": 6574.504350006464,
+    "lat_max": 11701.775699999416,
+    "label": "GPT-5.3-Codex"
+  }
+]

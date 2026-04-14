@@ -1,0 +1,10 @@
+row_model,col_model,value,support
+glm46v_flash,glm46v_flash,0.5,50
+glm46v_flash,claude_opus_4_1,0.2,50
+glm46v_flash,gpt_5-3_codex,0.18,50
+claude_opus_4_1,glm46v_flash,0.8,50
+claude_opus_4_1,claude_opus_4_1,0.5,50
+claude_opus_4_1,gpt_5-3_codex,0.49,50
+gpt_5-3_codex,glm46v_flash,0.82,50
+gpt_5-3_codex,claude_opus_4_1,0.51,50
+gpt_5-3_codex,gpt_5-3_codex,0.5,50

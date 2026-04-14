@@ -1,0 +1,68 @@
+{
+  "total": 5,
+  "success_count": 5,
+  "error_count": 0,
+  "success_rate": 1.0,
+  "exact_match_count": 0,
+  "exact_match_rate": 0.0,
+  "latency_ms": {
+    "avg": 3530.814259988256,
+    "p50": 3670.5860999936704,
+    "max": 3982.3297999973875
+  },
+  "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "api_base": "https://api.vsellm.ru/v1",
+    "onec_mock": false,
+    "exec_query": false,
+    "limit": 5,
+    "offset": 0
+  },
+  "samples": [
+    {
+      "idx": 1,
+      "question": "Перечислите имена, фамилии, место рождения и возраст глав департаментов в порядке возраста.",
+      "exact_match": false,
+      "gen_latency_ms": 3982.305699988501,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3982.3297999973875,
+      "error": null
+    },
+    {
+      "idx": 2,
+      "question": "Укажите год создания, название и бюджет каждого отдела.",
+      "exact_match": false,
+      "gen_latency_ms": 3670.576299977256,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3670.5860999936704,
+      "error": null
+    },
+    {
+      "idx": 3,
+      "question": "Каковы максимальный и минимальный бюджет факультетов?",
+      "exact_match": false,
+      "gen_latency_ms": 3798.0192999821156,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3798.0302999785636,
+      "error": null
+    },
+    {
+      "idx": 4,
+      "question": "Каково среднее число сотрудников отделов, чей ранг находится в диапазоне от 10 до 15?",
+      "exact_match": false,
+      "gen_latency_ms": 3007.225700013805,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3007.2378999902867,
+      "error": null
+    },
+    {
+      "idx": 5,
+      "question": "Как называются главы, родившиеся за пределами штата Калифорния?",
+      "exact_match": false,
+      "gen_latency_ms": 3195.8733999927063,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3195.887199981371,
+      "error": null
+    }
+  ]
+}

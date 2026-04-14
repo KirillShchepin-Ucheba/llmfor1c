@@ -1,0 +1,473 @@
+{
+  "total": 50,
+  "success_count": 50,
+  "error_count": 0,
+  "success_rate": 1.0,
+  "exact_match_count": 0,
+  "exact_match_rate": 0.0,
+  "latency_ms": {
+    "avg": 3409.949240740025,
+    "p50": 3186.842694000461,
+    "max": 6119.177421000131
+  },
+  "settings": {
+    "model": "anthropic/claude-haiku-4.5",
+    "api_base": "https://api.vsellm.ru/v1",
+    "onec_mock": true,
+    "exec_query": false,
+    "limit": 50,
+    "offset": 0
+  },
+  "samples": [
+    {
+      "idx": 1,
+      "question": "Перечислите имена, фамилии, место рождения и возраст глав департаментов в порядке возраста.",
+      "exact_match": false,
+      "gen_latency_ms": 3118.716119000055,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3118.7346349997824,
+      "error": null
+    },
+    {
+      "idx": 2,
+      "question": "Укажите год создания, название и бюджет каждого отдела.",
+      "exact_match": false,
+      "gen_latency_ms": 2642.838959999608,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2642.8488080000534,
+      "error": null
+    },
+    {
+      "idx": 3,
+      "question": "Каковы максимальный и минимальный бюджет факультетов?",
+      "exact_match": false,
+      "gen_latency_ms": 2944.852046000051,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2944.8609339997347,
+      "error": null
+    },
+    {
+      "idx": 4,
+      "question": "Каково среднее число сотрудников отделов, чей ранг находится в диапазоне от 10 до 15?",
+      "exact_match": false,
+      "gen_latency_ms": 3402.21221199954,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3402.223642999161,
+      "error": null
+    },
+    {
+      "idx": 5,
+      "question": "Как называются главы, родившиеся за пределами штата Калифорния?",
+      "exact_match": false,
+      "gen_latency_ms": 3132.4060159995497,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3132.4137909996352,
+      "error": null
+    },
+    {
+      "idx": 6,
+      "question": "Каковы годы создания отделов, которыми руководит секретарь, родившийся в штате Алабама?",
+      "exact_match": false,
+      "gen_latency_ms": 3168.722845999582,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3168.7384860006205,
+      "error": null
+    },
+    {
+      "idx": 7,
+      "question": "Как называются штаты, в которых родилось не менее 3 голов?",
+      "exact_match": false,
+      "gen_latency_ms": 3923.683101000279,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3923.6936819997936,
+      "error": null
+    },
+    {
+      "idx": 8,
+      "question": "В каком году было создано большинство факультетов?",
+      "exact_match": false,
+      "gen_latency_ms": 3401.588935000291,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3401.599064000038,
+      "error": null
+    },
+    {
+      "idx": 9,
+      "question": "Покажите фамилии и количество сотрудников в отделах, которыми руководят руководители, чье значение \"Временно исполняющий обязанности\" равно \"Да\"?",
+      "exact_match": false,
+      "gen_latency_ms": 3332.7635779996854,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3332.7806589995816,
+      "error": null
+    },
+    {
+      "idx": 10,
+      "question": "Сколько существует актерских статусов?",
+      "exact_match": false,
+      "gen_latency_ms": 2654.2504660001214,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2654.2578689995935,
+      "error": null
+    },
+    {
+      "idx": 11,
+      "question": "Каков возраст действующих лиц?",
+      "exact_match": false,
+      "gen_latency_ms": 3822.6346999999805,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3822.645712000849,
+      "error": null
+    },
+    {
+      "idx": 12,
+      "question": "В каком отделе одновременно работает более 1 руководителя? Укажите идентификатор, имя и количество руководителей.",
+      "exact_match": false,
+      "gen_latency_ms": 4257.439951000379,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4257.464808000805,
+      "error": null
+    },
+    {
+      "idx": 13,
+      "question": "В имени какого руководителя есть подстрока 'Ha'? Перечислите идентификатор и имя.",
+      "exact_match": false,
+      "gen_latency_ms": 2851.995287999671,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2852.0046059993547,
+      "error": null
+    },
+    {
+      "idx": 14,
+      "question": "Сколько здесь ферм?",
+      "exact_match": false,
+      "gen_latency_ms": 3288.3382870004425,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3288.346502999957,
+      "error": null
+    },
+    {
+      "idx": 15,
+      "question": "Подсчитайте количество ферм.",
+      "exact_match": false,
+      "gen_latency_ms": 2777.027194000766,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2777.037253000344,
+      "error": null
+    },
+    {
+      "idx": 16,
+      "question": "Перечислите общее количество лошадей на фермах в порядке возрастания.",
+      "exact_match": false,
+      "gen_latency_ms": 3196.2869159997354,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3196.2955630006036,
+      "error": null
+    },
+    {
+      "idx": 17,
+      "question": "Какова общая численность лошадей на каждой ферме, отсортированная по возрастанию?",
+      "exact_match": false,
+      "gen_latency_ms": 2903.4039710004436,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2903.411524999683,
+      "error": null
+    },
+    {
+      "idx": 18,
+      "question": "Каковы ведущие конкурсов, тема которых не \"Пришельцы\"?",
+      "exact_match": false,
+      "gen_latency_ms": 3177.3811980001483,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3177.3898250003185,
+      "error": null
+    },
+    {
+      "idx": 19,
+      "question": "Верните ведущих конкурсов, для которых тема не Чужие?",
+      "exact_match": false,
+      "gen_latency_ms": 2825.6895490003444,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2825.698716000261,
+      "error": null
+    },
+    {
+      "idx": 20,
+      "question": "Какие темы фермерских соревнований отсортированы по годам в порядке возрастания?",
+      "exact_match": false,
+      "gen_latency_ms": 2139.8307190002015,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2139.8406580001392,
+      "error": null
+    },
+    {
+      "idx": 21,
+      "question": "Возвращает темы фермерских конкурсов, отсортированные по годам по возрастанию.",
+      "exact_match": false,
+      "gen_latency_ms": 2700.1491520004492,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2700.1593410004716,
+      "error": null
+    },
+    {
+      "idx": 22,
+      "question": "Каково среднее количество рабочих лошадей в хозяйствах с общим поголовьем более 5000 голов?",
+      "exact_match": false,
+      "gen_latency_ms": 3265.5727829996977,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3265.5828930001007,
+      "error": null
+    },
+    {
+      "idx": 23,
+      "question": "Укажите среднее количество рабочих лошадей на фермах с общим количеством лошадей более 5000.",
+      "exact_match": false,
+      "gen_latency_ms": 2518.4330530000807,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2518.4409080002297,
+      "error": null
+    },
+    {
+      "idx": 24,
+      "question": "Каково максимальное и минимальное количество коров на всех фермах.",
+      "exact_match": false,
+      "gen_latency_ms": 2557.7393189996656,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2557.7479339999627,
+      "error": null
+    },
+    {
+      "idx": 25,
+      "question": "Верните максимальное и минимальное количество коров на всех фермах.",
+      "exact_match": false,
+      "gen_latency_ms": 2542.8153900002144,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2542.8243370006385,
+      "error": null
+    },
+    {
+      "idx": 26,
+      "question": "Сколько различных статусов есть у городов?",
+      "exact_match": false,
+      "gen_latency_ms": 3916.906034999556,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3916.91395899943,
+      "error": null
+    },
+    {
+      "idx": 27,
+      "question": "Подсчитайте количество различных статусов.",
+      "exact_match": false,
+      "gen_latency_ms": 4622.230541000135,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4622.2384049997345,
+      "error": null
+    },
+    {
+      "idx": 28,
+      "question": "Перечислите официальные названия городов в порядке убывания численности населения.",
+      "exact_match": false,
+      "gen_latency_ms": 2774.965990000055,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2774.977842000226,
+      "error": null
+    },
+    {
+      "idx": 29,
+      "question": "Как официально называются города в порядке убывания численности населения?",
+      "exact_match": false,
+      "gen_latency_ms": 2602.316987999984,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2602.3258549994353,
+      "error": null
+    },
+    {
+      "idx": 30,
+      "question": "Укажите официальное название и статус города с наибольшим населением.",
+      "exact_match": false,
+      "gen_latency_ms": 3133.365455000785,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3133.3741720000035,
+      "error": null
+    },
+    {
+      "idx": 31,
+      "question": "Каково официальное название и статус города с наибольшим количеством жителей?",
+      "exact_match": false,
+      "gen_latency_ms": 3980.7192089992895,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3980.7312729999467,
+      "error": null
+    },
+    {
+      "idx": 32,
+      "question": "Укажите годы и официальные названия городов, принимающих соревнования.",
+      "exact_match": false,
+      "gen_latency_ms": 3495.855084000141,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3495.8680780000577,
+      "error": null
+    },
+    {
+      "idx": 33,
+      "question": "Назовите годы и официальные названия городов, в которых проводились соревнования.",
+      "exact_match": false,
+      "gen_latency_ms": 4258.189698000024,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4258.20269399992,
+      "error": null
+    },
+    {
+      "idx": 34,
+      "question": "Пожалуйста, покажите темы соревнований, в которых принимающие города имеют население более 1000 человек.",
+      "exact_match": false,
+      "gen_latency_ms": 3053.7007630000517,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3053.7118629999895,
+      "error": null
+    },
+    {
+      "idx": 35,
+      "question": "Каковы темы конкурсов, в которых участвуют соответствующие города с населением более 1000 человек?",
+      "exact_match": false,
+      "gen_latency_ms": 4102.542940000603,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4102.5654119994215,
+      "error": null
+    },
+    {
+      "idx": 36,
+      "question": "Пожалуйста, покажите различные статусы городов и среднее население городов с каждым статусом.",
+      "exact_match": false,
+      "gen_latency_ms": 3633.5385130005307,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3633.5482009999396,
+      "error": null
+    },
+    {
+      "idx": 37,
+      "question": "Каковы статус и средняя численность населения каждого города?",
+      "exact_match": false,
+      "gen_latency_ms": 2256.455728999754,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2256.4657980001357,
+      "error": null
+    },
+    {
+      "idx": 38,
+      "question": "Пожалуйста, покажите различные статусы, упорядоченные по количеству городов, в которых есть каждый из них.",
+      "exact_match": false,
+      "gen_latency_ms": 4694.2698170005315,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4694.281468000554,
+      "error": null
+    },
+    {
+      "idx": 39,
+      "question": "Возвращает различные статусы городов, по возрастанию частоты.",
+      "exact_match": false,
+      "gen_latency_ms": 3144.142770000144,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3144.152118999955,
+      "error": null
+    },
+    {
+      "idx": 40,
+      "question": "Перечислите наиболее распространенные типы статусов в разных городах.",
+      "exact_match": false,
+      "gen_latency_ms": 3374.0209139996296,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3374.03245600035,
+      "error": null
+    },
+    {
+      "idx": 41,
+      "question": "Какой статус наиболее распространен во всех городах?",
+      "exact_match": false,
+      "gen_latency_ms": 3098.630217000391,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3098.6587910001617,
+      "error": null
+    },
+    {
+      "idx": 42,
+      "question": "Найдите официальные названия городов с населением более 1500 и менее 500 человек.",
+      "exact_match": false,
+      "gen_latency_ms": 3124.7479109997585,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3124.7576189998654,
+      "error": null
+    },
+    {
+      "idx": 43,
+      "question": "Как официально называются города с населением более 1500 и менее 500 человек?",
+      "exact_match": false,
+      "gen_latency_ms": 2749.5244609999645,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 2749.5335370003886,
+      "error": null
+    },
+    {
+      "idx": 44,
+      "question": "На каком курсе зарегистрировано наибольшее количество студентов?",
+      "exact_match": false,
+      "gen_latency_ms": 4423.949971999718,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4423.962636000397,
+      "error": null
+    },
+    {
+      "idx": 45,
+      "question": "Как называется курс, в котором зарегистрировано больше всего студентов?",
+      "exact_match": false,
+      "gen_latency_ms": 3596.8011119994117,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3596.820449000006,
+      "error": null
+    },
+    {
+      "idx": 46,
+      "question": "каков идентификатор студентов, которые зарегистрировали несколько курсов, но наименьшее количество курсов у этих студентов?",
+      "exact_match": false,
+      "gen_latency_ms": 4605.798736999532,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 4605.8142169995335,
+      "error": null
+    },
+    {
+      "idx": 47,
+      "question": "Каковы идентификаторы студентов, которые зарегистрировались на несколько курсов, но при этом прошли наименьшее количество курсов среди всех студентов?",
+      "exact_match": false,
+      "gen_latency_ms": 5978.640735000226,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 5978.662286999679,
+      "error": null
+    },
+    {
+      "idx": 48,
+      "question": "какие имена и фамилии у всех кандидатов?",
+      "exact_match": false,
+      "gen_latency_ms": 3915.619811000397,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3915.6319350004196,
+      "error": null
+    },
+    {
+      "idx": 49,
+      "question": "Назовите имена и фамилии всех кандидатов.",
+      "exact_match": false,
+      "gen_latency_ms": 3293.999624999742,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 3294.0113969998492,
+      "error": null
+    },
+    {
+      "idx": 50,
+      "question": "Перечислите идентификаторы студентов, которые посещали некоторые курсы?",
+      "exact_match": false,
+      "gen_latency_ms": 6119.164116999855,
+      "exec_latency_ms": 0.0,
+      "total_latency_ms": 6119.177421000131,
+      "error": null
+    }
+  ]
+}
